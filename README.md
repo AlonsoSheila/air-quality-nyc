@@ -82,13 +82,15 @@ cd air-quality-nyc
 conda env create -f environment.yml
 conda activate air_quality
 ```
+### 3. Download the data
+Download the CSV files from Kaggle and place them in the `/data/` folder:
+https://www.kaggle.com/datasets/casawi22/air-quality-nyc-epa-2020-2026
 
-### 3. Launch Jupyter
+### 4. Launch Jupyter
 ```bash
 jupyter notebook air_quality_nyc.ipynb
 ```
-
-### 4. Run all cells
+### 5. Run all cells
 In Jupyter: **Kernel > Restart & Run All**
 
 ---
@@ -99,6 +101,8 @@ All data was downloaded from the **U.S. EPA Air Quality System (AQS) Data Mart**
 - 🔗 https://www.epa.gov/outdoor-air-quality-data
 
 Data is publicly available and free to use.
+
+The dataset is also available on Kaggle: https://www.kaggle.com/datasets/casawi22/air-quality-nyc-epa-2020-2026
 
 ---
 
